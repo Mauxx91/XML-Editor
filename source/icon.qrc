@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/iconaexe.png</file>
+        <file>icon/open.png</file>
+        <file>icon/delete.png</file>
+        <file>icon/edit.png</file>
+        <file>icon/exit.png</file>
+        <file>icon/save.png</file>
+        <file>icon/add.png</file>
+        <file>icon/instance.png</file>
+        <file>icon/type.jpg</file>
+        <file>icon/root.png</file>
+        <file>icon/check.png</file>
+        <file>icon/new.png</file>
+        <file>icon/export.png</file>
+        <file>icon/import.png</file>
+        <file>icon/collapse.png</file>
+        <file>icon/relation.jpg</file>
+        <file>icon/associate.png</file>
+        <file>icon/error.png</file>
+        <file>icon/warning.png</file>
+        <file>icon/info.png</file>
+        <file>icon/newNode.png</file>
+        <file>icon/saveAll.png</file>
+        <file>icon/show.png</file>
+        <file>icon/copy.png</file>
+        <file>icon/duplicate.png</file>
+        <file>icon/paste.jpg</file>
+        <file>icon/redo.png</file>
+        <file>icon/undo.png</file>
+    </qresource>
+</RCC>
