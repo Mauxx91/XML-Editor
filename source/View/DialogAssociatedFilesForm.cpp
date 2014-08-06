@@ -116,6 +116,11 @@ DialogAssociatedFilesForm::DialogAssociatedFilesForm(AssociatedFiles* associated
     m_pAssociatedFiles->AttachObserver(this);
 }
 
+DialogAssociatedFilesForm::~DialogAssociatedFilesForm()
+{
+    m_pAssociatedFiles->DetachObserver(this);
+}
+
 void DialogAssociatedFilesForm::AddNewAssociatedFile(const QString& absoluteFileName)
 {
     //Set the right text in the title label only at the fist insertion

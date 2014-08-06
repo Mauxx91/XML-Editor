@@ -76,6 +76,7 @@ public:
      */
     DialogAssociatedFilesForm(AssociatedFiles* associatedFiles, QWidget *parent = 0);
 
+    ~DialogAssociatedFilesForm();
 private slots:
 
     /**

@@ -31,6 +31,8 @@ public:
 
     XmlEditCommandInvoker();
 
+    void Initialize();
+
     /**
      * @brief ExecuteACommand: exucute the given command and store the command to mantain a history in order to can get back the precedent state
      * @param xmlCommand to execute

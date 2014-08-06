@@ -1,0 +1,149 @@
+﻿Build started 01/08/2014 14:22:50.
+     1>Project "E:\workspaces\workspaceTest\Test_LocalDepot\XmlEditor\source\XmlEditor.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing DialogAddModifyRelation.h...
+         Moc'ing DialogAssociatedFilesForm.h...
+         Moc'ing DialogEditAttributeNameTagCollapse.h...
+         Moc'ing DialogEditNodeTable.h...
+         Moc'ing DialogInputFileNameForm.h...
+         Moc'ing DialogInputStringForm.h...
+         Moc'ing DialogXmlRelationManagementTable.h...
+         Moc'ing DraggableTreeView.h...
+         Moc'ing MainWindowView.h...
+         Moc'ing ViewXmlRelationErrorsTable.h...
+         Moc'ing XmlEditCommandInvoker.h...
+         Moc'ing XmlTreeModel.h...
+         Moc'ing XmlViewTree.h...
+         Rcc'ing icon.qrc...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Qt\Qt5.3.1\5.3\msvc2012_opengl\include /IC:\Qt\Qt5.3.1\5.3\msvc2012_opengl\include\QtWidgets /IC:\Qt\Qt5.3.1\5.3\msvc2012_opengl\include\QtXml /IC:\Qt\Qt5.3.1\5.3\msvc2012_opengl\include\QtGui /IC:\Qt\Qt5.3.1\5.3\msvc2012_opengl\include\QtCore /Idebug /I"C:\Qt\Qt5.3.1\5.3\msvc2012_opengl\mkspecs\win32-msvc2012" /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_WIDGETS_LIB /D QT_XML_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt -Zm200 -w34100 -w34189 Data\AssociatedFiles.cpp Data\AttributeNameTagCollapse.cpp Debug\moc_DialogAddModifyRelation.cpp Debug\moc_DialogAssociatedFilesForm.cpp Debug\moc_DialogEditAttributeNameTagCollapse.cpp Debug\moc_DialogEditNodeTable.cpp Debug\moc_DialogInputFileNameForm.cpp Debug\moc_DialogInputStringForm.cpp Debug\moc_DialogXmlRelationManagementTable.cpp Debug\moc_DraggableTreeView.cpp Debug\moc_MainWindowView.cpp Debug\moc_ViewXmlRelationErrorsTable.cpp Debug\moc_XmlEditCommandInvoker.cpp Debug\moc_XmlTreeModel.cpp Debug\moc_XmlViewTree.cpp View\DialogAddModifyRelation.cpp View\DialogAssociatedFilesBase.cpp View\DialogAssociatedFilesForm.cpp View\DialogEditAttributeNameTagCollapse.cpp View\DialogEditAttributeNameTagCollapseBase.cpp View\DialogEditNodeBase.cpp View\DialogEditNodeTable.cpp View\DialogInputFileNameBase.cpp View\DialogInputFileNameForm.cpp View\DialogInputStringBase.cpp View\DialogInputStringForm.cpp View\DialogXmlRelationManagementBase.cpp View\DialogXmlRelationManagementTable.cpp View\DraggableTreeView.cpp Observer\IObserver.cpp View\MainWindowView.cpp Observer\Subject.cpp View\ViewXmlRelationErrorsBase.cpp View\ViewXmlRelationErrorsTable.cpp Data\XmlDocument.cpp Command\XmlEditCommandAddAttribute.cpp Command\XmlEditCommandAddChildNode.cpp Command\XmlEditCommandAddExistentChildNode.cpp Command\XmlEditCommandAggregator.cpp Command\XmlEditCommandBase.cpp Command\XmlEditCommandDeleteAllChildNode.cpp Command\XmlEditCommandDeleteNode.cpp Command\XmlEditCommandEditAttribute.cpp Command\XmlEditCommandInvoker.cpp Command\XmlEditCommandRemoveAttribute.cpp Command\XmlEditCommandSetNodeValue.cpp Data\XmlRelation.cpp Core\XmlRelationCheckerCoreBase.cpp Core\XmlRelationCheckerCoreImpl.cpp Data\XmlRelationCollection.cpp Data\XmlRelationError.cpp Data\XmlTreeItem.cpp Data\XmlTreeModel.cpp View\XmlViewBase.cpp View\XmlViewTree.cpp main.cpp
+         AssociatedFiles.cpp
+         AttributeNameTagCollapse.cpp
+         moc_DialogAddModifyRelation.cpp
+         moc_DialogAssociatedFilesForm.cpp
+         moc_DialogEditAttributeNameTagCollapse.cpp
+         moc_DialogEditNodeTable.cpp
+         moc_DialogInputFileNameForm.cpp
+         moc_DialogInputStringForm.cpp
+         moc_DialogXmlRelationManagementTable.cpp
+         moc_DraggableTreeView.cpp
+         moc_MainWindowView.cpp
+         moc_ViewXmlRelationErrorsTable.cpp
+         moc_XmlEditCommandInvoker.cpp
+         moc_XmlTreeModel.cpp
+         moc_XmlViewTree.cpp
+         DialogAddModifyRelation.cpp
+         DialogAssociatedFilesBase.cpp
+         DialogAssociatedFilesForm.cpp
+         DialogEditAttributeNameTagCollapse.cpp
+         DialogEditAttributeNameTagCollapseBase.cpp
+         Generating Code...
+         Compiling...
+         DialogEditNodeBase.cpp
+         DialogEditNodeTable.cpp
+         DialogInputFileNameBase.cpp
+         DialogInputFileNameForm.cpp
+         DialogInputStringBase.cpp
+         DialogInputStringForm.cpp
+         DialogXmlRelationManagementBase.cpp
+         DialogXmlRelationManagementTable.cpp
+         DraggableTreeView.cpp
+         IObserver.cpp
+         MainWindowView.cpp
+         Subject.cpp
+         ViewXmlRelationErrorsBase.cpp
+         ViewXmlRelationErrorsTable.cpp
+         XmlDocument.cpp
+         XmlEditCommandAddAttribute.cpp
+         XmlEditCommandAddChildNode.cpp
+         XmlEditCommandAddExistentChildNode.cpp
+         XmlEditCommandAggregator.cpp
+         XmlEditCommandBase.cpp
+         Generating Code...
+         Compiling...
+         XmlEditCommandDeleteAllChildNode.cpp
+         XmlEditCommandDeleteNode.cpp
+         XmlEditCommandEditAttribute.cpp
+         XmlEditCommandInvoker.cpp
+         XmlEditCommandRemoveAttribute.cpp
+         XmlEditCommandSetNodeValue.cpp
+         XmlRelation.cpp
+         XmlRelationCheckerCoreBase.cpp
+         XmlRelationCheckerCoreImpl.cpp
+         XmlRelationCollection.cpp
+         XmlRelationError.cpp
+         XmlTreeItem.cpp
+         XmlTreeModel.cpp
+         XmlViewBase.cpp
+         XmlViewTree.cpp
+         main.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Qt\Qt5.3.1\5.3\msvc2012_opengl\include /IC:\Qt\Qt5.3.1\5.3\msvc2012_opengl\include\QtWidgets /IC:\Qt\Qt5.3.1\5.3\msvc2012_opengl\include\QtXml /IC:\Qt\Qt5.3.1\5.3\msvc2012_opengl\include\QtGui /IC:\Qt\Qt5.3.1\5.3\msvc2012_opengl\include\QtCore /Idebug /I"C:\Qt\Qt5.3.1\5.3\msvc2012_opengl\mkspecs\win32-msvc2012" /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_WIDGETS_LIB /D QT_XML_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt -Zm200 -w34100 -w34189 GeneratedFiles\qrc_icon.cpp
+         qrc_icon.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _WINDOWS /D UNICODE /D WIN32 /D QT_WIDGETS_LIB /D QT_XML_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D _DEBUG /l"0x0409" /nologo /fo"Win32\Debug\resources.res" resources.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\XmlEditor.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.3.1\5.3\msvc2012_opengl\lib /LIBPATH:C:\Qt\Qt5.3.1\5.3\msvc2012_opengl\lib /LIBPATH:C:\Qt\Qt5.3.1\5.3\msvc2012_opengl\lib glu32.lib opengl32.lib gdi32.lib user32.lib C:\Qt\Qt5.3.1\5.3\msvc2012_opengl\lib\qtmaind.lib C:\Qt\Qt5.3.1\5.3\msvc2012_opengl\lib\Qt5Cored.lib C:\Qt\Qt5.3.1\5.3\msvc2012_opengl\lib\Qt5Widgetsd.lib C:\Qt\Qt5.3.1\5.3\msvc2012_opengl\lib\Qt5Xmld.lib C:\Qt\Qt5.3.1\5.3\msvc2012_opengl\lib\Qt5Guid.lib C:\Qt\Qt5.3.1\5.3\msvc2012_opengl\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\XmlEditor.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" Win32\Debug\resources.res
+         Win32\Debug\AssociatedFiles.obj
+         Win32\Debug\AttributeNameTagCollapse.obj
+         Win32\Debug\moc_DialogAddModifyRelation.obj
+         Win32\Debug\moc_DialogAssociatedFilesForm.obj
+         Win32\Debug\moc_DialogEditAttributeNameTagCollapse.obj
+         Win32\Debug\moc_DialogEditNodeTable.obj
+         Win32\Debug\moc_DialogInputFileNameForm.obj
+         Win32\Debug\moc_DialogInputStringForm.obj
+         Win32\Debug\moc_DialogXmlRelationManagementTable.obj
+         Win32\Debug\moc_DraggableTreeView.obj
+         Win32\Debug\moc_MainWindowView.obj
+         Win32\Debug\moc_ViewXmlRelationErrorsTable.obj
+         Win32\Debug\moc_XmlEditCommandInvoker.obj
+         Win32\Debug\moc_XmlTreeModel.obj
+         Win32\Debug\moc_XmlViewTree.obj
+         Win32\Debug\qrc_icon.obj
+         Win32\Debug\DialogAddModifyRelation.obj
+         Win32\Debug\DialogAssociatedFilesBase.obj
+         Win32\Debug\DialogAssociatedFilesForm.obj
+         Win32\Debug\DialogEditAttributeNameTagCollapse.obj
+         Win32\Debug\DialogEditAttributeNameTagCollapseBase.obj
+         Win32\Debug\DialogEditNodeBase.obj
+         Win32\Debug\DialogEditNodeTable.obj
+         Win32\Debug\DialogInputFileNameBase.obj
+         Win32\Debug\DialogInputFileNameForm.obj
+         Win32\Debug\DialogInputStringBase.obj
+         Win32\Debug\DialogInputStringForm.obj
+         Win32\Debug\DialogXmlRelationManagementBase.obj
+         Win32\Debug\DialogXmlRelationManagementTable.obj
+         Win32\Debug\DraggableTreeView.obj
+         Win32\Debug\IObserver.obj
+         Win32\Debug\MainWindowView.obj
+         Win32\Debug\Subject.obj
+         Win32\Debug\ViewXmlRelationErrorsBase.obj
+         Win32\Debug\ViewXmlRelationErrorsTable.obj
+         Win32\Debug\XmlDocument.obj
+         Win32\Debug\XmlEditCommandAddAttribute.obj
+         Win32\Debug\XmlEditCommandAddChildNode.obj
+         Win32\Debug\XmlEditCommandAddExistentChildNode.obj
+         Win32\Debug\XmlEditCommandAggregator.obj
+         Win32\Debug\XmlEditCommandBase.obj
+         Win32\Debug\XmlEditCommandDeleteAllChildNode.obj
+         Win32\Debug\XmlEditCommandDeleteNode.obj
+         Win32\Debug\XmlEditCommandEditAttribute.obj
+         Win32\Debug\XmlEditCommandInvoker.obj
+         Win32\Debug\XmlEditCommandRemoveAttribute.obj
+         Win32\Debug\XmlEditCommandSetNodeValue.obj
+         Win32\Debug\XmlRelation.obj
+         Win32\Debug\XmlRelationCheckerCoreBase.obj
+         Win32\Debug\XmlRelationCheckerCoreImpl.obj
+         Win32\Debug\XmlRelationCollection.obj
+         Win32\Debug\XmlRelationError.obj
+         Win32\Debug\XmlTreeItem.obj
+         Win32\Debug\XmlTreeModel.obj
+         Win32\Debug\XmlViewBase.obj
+         Win32\Debug\XmlViewTree.obj
+         Win32\Debug\main.obj
+         XmlEditor.vcxproj -> E:\workspaces\workspaceTest\Test_LocalDepot\XmlEditor\source\debug\XmlEditor.exe
+     1>Done Building Project "E:\workspaces\workspaceTest\Test_LocalDepot\XmlEditor\source\XmlEditor.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:06.46

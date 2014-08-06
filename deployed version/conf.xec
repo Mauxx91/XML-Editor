@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmlEditorConf>
-  <xmlRelationCollection/>
+  <xmlRelationCollection>
+    <xmlRelation>
+      <tagFromName>m_pGroup</tagFromName>
+      <attributeNameofTagFrom>m_szBehaviourName</attributeNameofTagFrom>
+      <subTagNameOfTagFrom>m_pBehaviourInfo</subTagNameOfTagFrom>
+      <tagToName>m_pBehaviourEntry</tagToName>
+      <attributeNameOfTagTo>m_szBehaviourName</attributeNameOfTagTo>
+      <relationType>0</relationType>
+    </xmlRelation>
+    <xmlRelation>
+      <tagFromName>m_pBehaviourEntry</tagFromName>
+      <attributeNameofTagFrom>m_szGraphicItemName</attributeNameofTagFrom>
+      <subTagNameOfTagFrom>m_pGraphicItemInfo</subTagNameOfTagFrom>
+      <tagToName>m_pGraphicItemEntry</tagToName>
+      <attributeNameOfTagTo>m_szItemName</attributeNameOfTagTo>
+      <relationType>0</relationType>
+    </xmlRelation>
+    <xmlRelation>
+      <tagFromName>m_pGraphicItemEntry</tagFromName>
+      <attributeNameofTagFrom>m_szObjLogicalName</attributeNameofTagFrom>
+      <subTagNameOfTagFrom>m_pObjsInfo</subTagNameOfTagFrom>
+      <tagToName>m_pObjsInfoList</tagToName>
+      <attributeNameOfTagTo>m_szObjectLogicalName</attributeNameOfTagTo>
+      <relationType>0</relationType>
+    </xmlRelation>
+  </xmlRelationCollection>
 </xmlEditorConf>

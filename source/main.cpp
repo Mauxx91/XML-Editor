@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
         w.OpenXmlFile(argv[1], true);
 
     //For fast test
-    w.OpenXmlFile("C:/Users/maurizio.biancucci/Desktop/prova - Copy.xml", true);
+    //w.OpenXmlFile("C:/Users/maurizio.biancucci/Desktop/prova - Copy.xml", true);
     //w.OpenXmlFile("E:/workspaces/motogp14/build/DebugGame/Data/Graphic/Bike/BikeBehaviourConfig.xml", true);
 
     return a.exec();

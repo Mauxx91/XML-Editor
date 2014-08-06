@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{5c1b2123-e500-477a-9cf0-c174d5548498}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{d7aab4d5-4890-4701-b66e-c8b63bcef7c4}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Data\AssociatedFiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\AttributeNameTagCollapse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\DialogAddModifyRelation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\DialogAssociatedFilesBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\DialogAssociatedFilesForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\DialogEditAttributeNameTagCollapse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\DialogEditAttributeNameTagCollapseBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\DialogEditNodeBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\DialogEditNodeTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\DialogInputFileNameBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\DialogInputFileNameForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\DialogInputStringBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\DialogInputStringForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\DialogXmlRelationManagementBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\DialogXmlRelationManagementTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\DraggableTreeView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer\IObserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\MainWindowView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer\Subject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\ViewXmlRelationErrorsBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\ViewXmlRelationErrorsTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\XmlDocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\XmlEditCommandAddAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\XmlEditCommandAddChildNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\XmlEditCommandAddExistentChildNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\XmlEditCommandAggregator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\XmlEditCommandBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\XmlEditCommandDeleteAllChildNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\XmlEditCommandDeleteNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\XmlEditCommandEditAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\XmlEditCommandInvoker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\XmlEditCommandRemoveAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\XmlEditCommandSetNodeValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\XmlRelation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XmlRelationCheckerCoreBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XmlRelationCheckerCoreImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\XmlRelationCollection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\XmlRelationError.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\XmlTreeItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\XmlTreeModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\XmlViewBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\XmlViewTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_DialogAddModifyRelation.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_DialogAddModifyRelation.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_DialogAssociatedFilesForm.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_DialogAssociatedFilesForm.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_DialogEditAttributeNameTagCollapse.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_DialogEditAttributeNameTagCollapse.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_DialogEditNodeTable.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_DialogEditNodeTable.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_DialogInputFileNameForm.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_DialogInputFileNameForm.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_DialogInputStringForm.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_DialogInputStringForm.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_DialogXmlRelationManagementTable.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_DialogXmlRelationManagementTable.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_DraggableTreeView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_DraggableTreeView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_MainWindowView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_MainWindowView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ViewXmlRelationErrorsTable.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ViewXmlRelationErrorsTable.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_XmlEditCommandInvoker.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_XmlEditCommandInvoker.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_XmlTreeModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_XmlTreeModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_XmlViewTree.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_XmlViewTree.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_icon.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Data\AssociatedFiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\AttributeNameTagCollapse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="View\DialogAddModifyRelation.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="View\DialogAssociatedFilesBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="View\DialogAssociatedFilesForm.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="View\DialogEditAttributeNameTagCollapse.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="View\DialogEditAttributeNameTagCollapseBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View\DialogEditNodeBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="View\DialogEditNodeTable.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="View\DialogInputFileNameBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="View\DialogInputFileNameForm.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="View\DialogInputStringBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="View\DialogInputStringForm.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="View\DialogXmlRelationManagementBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="View\DialogXmlRelationManagementTable.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="View\DraggableTreeView.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="Observer\IObserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="View\MainWindowView.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="Observer\Subject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View\ViewXmlRelationErrorsBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="View\ViewXmlRelationErrorsTable.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="Data\XmlDocument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\XmlEditCommandAddAttribute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\XmlEditCommandAddChildNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\XmlEditCommandAddExistentChildNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\XmlEditCommandAggregator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\XmlEditCommandBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\XmlEditCommandDeleteAllChildNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\XmlEditCommandDeleteNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\XmlEditCommandEditAttribute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="Command\XmlEditCommandInvoker.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="Command\XmlEditCommandRemoveAttribute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\XmlEditCommandSetNodeValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\XmlRelation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\XmlRelationCheckerCoreBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\XmlRelationCheckerCoreImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\XmlRelationCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\XmlRelationError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\XmlTreeItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="Data\XmlTreeModel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="View\XmlViewBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="View\XmlViewTree.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\add.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\associate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\check.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\collapse.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\copy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\delete.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\duplicate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\edit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\error.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\exit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\export.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="icon.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="icon\iconaexe.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\import.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\info.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\instance.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\newNode.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\open.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\paste.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\redo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\relation.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\root.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\save.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\saveAll.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\show.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\type.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\undo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\warning.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources.rc" />
+  </ItemGroup>
+</Project>

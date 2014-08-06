@@ -77,6 +77,9 @@ MainWindowView::MainWindowView(): QMainWindow(0)
     connect(m_pXmlEditorCommandInvoker, SIGNAL(UndoEnabled(bool)), this, SLOT(SetEnableUndo(bool)));
     connect(m_pXmlEditorCommandInvoker, SIGNAL(RedoEnabled(bool)), this, SLOT(SetEnableRedo(bool)));
 
+    //Initialize in order to set the right state of the action undo and redo
+    m_pXmlEditorCommandInvoker->Initialize();
+
     //Set a zero the error view
     m_pXmlErrorWidget = 0;
 
@@ -987,13 +990,9 @@ void MainWindowView::dropEvent(QDropEvent *event)
     else if(msgBox.clickedButton() == openAsAssociateFileBnt)
     {
         //Add to the associate files
-        bool inserted = m_pAssociatedFiles->AddAssociatedFileName(fileName);
+        m_pAssociatedFiles->AddAssociatedFileName(fileName);
 
-        //Open as associate file only it it was not present yet
-        if(inserted)
-        {
-            OpenXmlFile(fileName, false);
-        }
+        //It's not needed to insert the file because if it's iserted, tha min will open the file automatically
     }
 }
 

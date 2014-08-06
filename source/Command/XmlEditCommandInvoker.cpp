@@ -11,6 +11,10 @@
 XmlEditCommandInvoker::XmlEditCommandInvoker()
 {
     m_indexOfLastValid = 0;
+}
+
+void XmlEditCommandInvoker::Initialize()
+{
     emit UndoEnabled(false);
     emit RedoEnabled(false);
 }

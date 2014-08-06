@@ -7,7 +7,7 @@
 #ifndef DRAGGABLETREEVIEW_H
 #define DRAGGABLETREEVIEW_H
 
-#include <QTreeView>
+#include <QTreeView.h>
 
 class XmlDocument;
 class XmlRelationCheckerCoreBase;
